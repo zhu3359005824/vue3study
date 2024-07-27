@@ -12,6 +12,9 @@ const routes = [
     name: 'HomeView',
     component: () => import('../views/HomeView.vue'),
     meta: { requiresAuth: true } // 添加需要登录验证的标记
+  },{
+    path:'/test',
+   component: ()=>import('../views/TestView.vue')
   }
 
 ]
